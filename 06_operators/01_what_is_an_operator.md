@@ -20,7 +20,12 @@ Javascript support the following types of operators
 
 | S. No. | Operator and Description |
 | ------ | ------------------------ |
-| 1 | **+ (Addition)** Adds two operands. **Ex:** A + B will give 30 |
-| 2 | **- (Subtraction)** Subtracts the second operand from the first. **Ex:** A - B will give -10 |
-| 3 | *** * (Multiplication)** Multiply both operands. **Ex:** A * B will give 200 |
-| 4 | **/ (Division)** Divide the numerator by the denominator. **Ex:** B / A will give 2 |
+| 1 | + (Addition) Adds two operands. Ex: A + B will give 30 |
+| 2 | - (Subtraction) Subtracts the second operand from the first. Ex: A - B will give -10 |
+| 3 | * (Multiplication) Multiply both operands. Ex: A * B will give 200 |
+| 4 | / (Division) Divide the numerator by the denominator. Ex: B / A will give 2 |
+| 5 | A % (Modulus) Outputs the remainder of an integer division. Ex: B % A will give 0 |
+| 6 | ++ (Increment) Increases an integer value by one. Ex: A++ will give 11 |
+| 7 | -- (Decrement) Decreases an integer value by one. Ex: A-- will give 9 |
+
+
