@@ -20,9 +20,7 @@ Javascript support the following types of operators
 
 | S. No. | Operator and Description |
 | ------ | ------------------------ |
-| 1 | **+ (Addition)** 
-      Adds two operands
-      **Ex:** A + B will give 30 |
+| 1 | **+ (Addition)** Adds two operands **Ex:** A + B will give 30 |
 | 2 | **- (Subtraction)** |
       Subtracts the second operand from the first
       **Ex:** A - B will give -10
