@@ -33,7 +33,8 @@ Javascript support the following types of operators
 | S. No. | Operator and Description |
 | ------ | ------------------------ |
 | 1 | == (Equal) Checks if the value of two operands are equal or not, if yes, then the condition becomes true. Ex: (A == B) is not true. |
-| 2 | != (Not Equal) Checks if the value of two operands are equal or not, if the values are not equal, then the condition becomes true. Ex: (A != B) is true. |
+| 2 | != (Not Equal) Checks if the value of two operands are equal or not, if the values are not equal, then the condition becomes true. Ex: (A != B) is true. 
+|
 
 | 3 | > (Greater than) Checks if the value of the left operand is greater than the value of the right operand, if yes, then the condition becomes true. Ex: (A > B) is not true. |
 | 4 | < (Less than) Checks if the value of the left operand is less than the value of the right operand, if yes, then the condition becomes true. Ex: (A < B) is true. |
