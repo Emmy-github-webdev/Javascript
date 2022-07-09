@@ -70,5 +70,18 @@ Assume variable A holds 2 and variable B holds 3, then:
 | 6 | >> (Right Shift) Binary Right Shift Operator. The left operand’s value is moved right by the number of bits specified by the right operand. Ex: (A >> 1) is 1. |
 | 7 | >>> (Right shift with Zero) This operator is just like the >> operator, except that the bits shifted in on the left are always zero. Ex: (A >>> 1) is 1. |
 
+### Assignment Operators
+
+Assume variable A holds 2 and variable B holds 3, then:
+
+| S. No. | Operator and Description |
+| ------ | ------------------------ |
+| 1 | = (Simple Assignment ) Assigns values from the right side operand to the left side operand Ex: C = A + B will assign the value of A + B into C |
+| 2 | += (Add and Assignment) It adds the right operand to the left operand and assigns the result to the left operand Ex: C += A is equivalent to C = C + A |
+| 3 | -= (Subtract and Assignment) It subtracts the right operand from the left operand and assigns the result to the left operand. Ex: C -= A is equivalent to C = C - A |
+| 4 | *= (Multiply and Assignment) It multiplies the right operand with the left operand and assigns the result to the left operand. Ex: C *= A is equivalent to C = C * A |
+| 5 | /= (Divide and Assignment) It divides the left operand with the right operand and assigns the result to the left operand. Ex: C /= A is equivalent to C = C / A |
+| 6 | %= (Modules and Assignment) It takes modulus using two operands and assigns the result to the left operand. Ex: C %= A is equivalent to C = C % A |
+
 
 
