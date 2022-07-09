@@ -96,6 +96,33 @@ conditional operator (? :) and the typeof operator.
 | 1 | ? : (Conditional ) If Condition is true? Then value X : Otherwise value Y |
 
 
+##### typeof Operator
+
+The typeof operator is a unary operator that is placed before its single operand,
+which can be of any type. Its value is a string indicating the data type of the
+operand.
+
+<br>
+
+The typeof operator evaluates to "number", "string", or "boolean" if its operand
+is a number, string, or boolean value and returns true or false based on the
+evaluation.
+
+<br>
+
+Here is a list of the return values for the typeof Operator.
+
+
+| Type  | String Returned by typeof |
+| ------ | ------------------------ |
+| Number |"number" |
+| String |"string" |
+| Boolean  |"boolean " |
+| Object |"object" |
+| Function  |"function " |
+| Undefined  |"undefined " |
+| Null  |"object " |
+
 
 
 
