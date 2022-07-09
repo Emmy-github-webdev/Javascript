@@ -18,6 +18,9 @@ Javascript support the following types of operators
 
 ### Arithmetic Operator
 
+Assume variable A holds 10 and variable B holds 20, then:
+
+
 | S. No. | Operator and Description |
 | ------ | ------------------------ |
 | 1 | + (Addition) Adds two operands. Ex: A + B will give 30 |
@@ -30,6 +33,9 @@ Javascript support the following types of operators
 
 ### Comparison Operators
 
+Assume variable A holds 10 and variable B holds 20, then:
+
+
 | S. No. | Operator and Description |
 | ------ | ------------------------ |
 | 1 | == (Equal) Checks if the value of two operands are equal or not, if yes, then the condition becomes true. Ex: (A == B) is not true. |
@@ -38,6 +44,17 @@ Javascript support the following types of operators
 | 4 | < (Less than) Checks if the value of the left operand is less than the value of the right operand. Ex: (A < B) is true. |
 | 5 | >= (Greater than or Equal to) Checks if the value of the left operand is greater than or equal to the value of the right operand. Ex: (A >= B) is not true. |
 | 6 | <= (Less than or Equal to) Checks if the value of the left operand is less than or equal to the value of the right operand. Ex: (A <= B) is true. |
+
+### Logical Operators
+
+Assume variable A holds 10 and variable B holds 20, then:
+
+
+| S. No. | Operator and Description |
+| ------ | ------------------------ |
+| 1 | && (Logical AND) If both the operands are non-zero, then the condition becomes true. Ex: (A && B) is true. |
+| 2 | || (Logical OR) If any of the two operands are non-zero, then the condition becomes true. Ex: (A || B) is true. |
+| 3 | ! (Logical NOT) Reverses the logical state of its operand. If a condition is true, then thenLogical NOT operator will make it false. Ex: ! (A && B) is false. |
 
 
 
