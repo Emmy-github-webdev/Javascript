@@ -83,5 +83,19 @@ Assume variable A holds 2 and variable B holds 3, then:
 | 5 | /= (Divide and Assignment) It divides the left operand with the right operand and assigns the result to the left operand. Ex: C /= A is equivalent to C = C / A |
 | 6 | %= (Modules and Assignment) It takes modulus using two operands and assigns the result to the left operand. Ex: C %= A is equivalent to C = C % A |
 
+### Miscellaneous Operators
+
+We will discuss two operators here that are quite useful in JavaScript: the
+conditional operator (? :) and the typeof operator.
+
+##### Conditional Operator (? :)
+
+
+| S. No. | Operator and Description |
+| ------ | ------------------------ |
+| 1 | ? : (Conditional ) If Condition is true? Then value X : Otherwise value Y |
+
+
+
 
 
