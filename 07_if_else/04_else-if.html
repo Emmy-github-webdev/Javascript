@@ -4,17 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>If Else</title>
+  <title>Else IF</title>
 </head>
 <body>
   <script type="text/javascript">
-    var age = 15;
+    var book = "Maths";
 
-    if (age > 18){
-      document.write("<b>Qualifies for driving!</b>")
-    }else {
-      document.write("<b>Does not qualifies not driving!</b>")
-    }
+    if (book == "Economics"){
+      document.write("<b>Economics book</b>");
+    } else if (book == "Maths") {
+      document.write("<b>Maths book</b>");
+    } else {
+      document.write("<b>Unknown book</b>");
+    };
   </script>
 </body>
 </html>
