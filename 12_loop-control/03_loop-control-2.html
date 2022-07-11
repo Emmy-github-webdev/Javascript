@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>For In Loop</title>
+  <title>Loop Control</title>
 </head>
 <body>
-  <script type="text/javascript" >
-    
-    var aProperty;
+  <script type="text/javascript">
+    var x = 1;
 
-    for (aProperty in navigator){
-      document.write(aProperty);
-      document.write("<br />")
+    while (x < 10){
+      x = x + 1;
+      if (x == 5){
+        continue;
+      };
+      document.write(x + " </br>");
     };
   </script>
 </body>
