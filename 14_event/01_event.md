@@ -133,6 +133,6 @@ Here script indicates a Javascript function to be executed against that event
 | ontimeupdate | script | Triggers when media changes its playing position 
 | onundo | script | Triggers when a document performs an undo |
 | onunload | script | Triggers when the user leaves the document |
-| onvolumechange | script Triggers when media changes the volume, also when volume is set to "mute" |
+| onvolumechange | script | Triggers when media changes the volume, also when volume is set to "mute" |
 | onwaiting | script | Triggers when media has stopped playing, but is expected to resume |
 
