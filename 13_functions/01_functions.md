@@ -41,3 +41,47 @@ var variablename = new Function(Arg1, Arg2..., "Function Body");
 //-->
 </script>
 ```
+
+#### Function Literals
+
+JavaScript 1.2 introduces the concept of **function literals** which is another new
+way of defining functions. A function literal is an expression that defines an
+unnamed function.
+
+```
+<script type="text/javascript">
+var variablename = function(Argument List){
+ Function Body
+ };
+</script>
+
+```
+
+Syntactically, you can specify a function name while creating a literal function as
+follows.
+
+```
+<script type="text/javascript">
+<!--
+var variablename = function FunctionName(Argument List){
+ Function Body
+ };
+//-->
+</script>
+```
+
+Example
+
+```
+<script type="text/javascript">
+<!--
+var func = function(x,y){ return x*y };
+function secondFunction(){
+ var result;
+ result = func(10,20);
+ document.write ( result );
+}
+//-->
+</script>
+
+```
