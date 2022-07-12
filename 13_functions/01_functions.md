@@ -17,3 +17,9 @@ function functionname(parameter-list)
 </script>
 
 ```
+
+#### The return Statement
+
+A JavaScript function can have an optional return statement. This is required if
+you want to return a value from a function. This statement should be the last
+statement in a function.
