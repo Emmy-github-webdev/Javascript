@@ -22,3 +22,37 @@ element contains a set of events which can trigger JavaScript Code.
 Please go through this small tutorial for a better understanding (HTML Event
 Reference)[http://www.tutorialspoint.com/html/html_events_ref.htm]. Here we will see a few examples to understand the relation between
 Event and JavaScript.
+
+#### onsubmitEvent Type
+
+onsubmit is an event that occurs when you try to submit a form. You can put
+your form validation against this event type.
+```
+<html>
+<head>
+<script type="text/javascript">
+<!--
+function validation() {
+ all validation goes here
+ .........
+ return either true or false
+}
+//-->
+</script>
+</head>
+<body>
+<form method="POST" action="t.cgi" onsubmit="return validate()">
+.......
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
+
+```
+
+#### onmouseover and onmouseout
+
+These two event types will help you create nice effects with images or even with
+text as well. The **onmouseover** event triggers when you bring your mouse over
+any element and the **onmouseout** triggers when you move your mouse out
+from that element. Try the following example.
