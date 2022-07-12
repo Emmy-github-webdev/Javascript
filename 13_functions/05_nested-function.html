@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript">
+    function hypontenus(a, b){
+      function square(x){
+        return (x*x);
+      };
+
+      return Math.sqrt(square(a) + square(b));
+    };
+
+    function secondFunction(){
+      var result;
+      result = hypontenus(1, 2);
+      document.write(result);
+    };
+  </script>
+  <title>Nested Function</title>
+</head>
+<body>
+  <form>
+    <input type="button" onclick="secondFunction()" value="Say Hello"/>
+  </form>
+</body>
+</html>
