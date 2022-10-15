@@ -109,3 +109,7 @@
   Answer:
   - Asynchronous, non-blocking functions
   - Synchronous, blocking functions
+5. What is control flow function?
+  Answer:
+  Control flow function is generic piece of code which runs in between several Asynchrounous function
+
