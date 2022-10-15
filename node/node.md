@@ -21,3 +21,22 @@
   setTimeout(() => alert(2), 0);
   alert(3);
   ```
+  > Blocking VS Non-blocking
+  **Blocking** refers to operations that block further execution until that operation finishes. It execute **synchronously** while **Non-blocking** refers to operations that does not block execution. **Non-blocking** execute **asynchrously**
+
+  ```
+  // Blocking
+  const fs = require('fs');
+  const data = fs.readFileSync('/file.md'); // blocks here until file is read
+  console.log(data);
+  moreWork(); // will run after console.log
+
+  // Non-blocking
+  const fs = require('fs');
+  fs.readFile('/file.md', (err, data) => {
+    if (err) throw err;
+    console.log(data);
+  });
+  moreWork(); // will run before console.log
+  ```
+  > 
