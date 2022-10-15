@@ -99,4 +99,9 @@
   - Network applications
   - Distributed system
   - General purpose application
-
+3. Advantages of using node.js?
+  - It provides easy way to build scalable network programs
+  - Great concurrency
+  - Generally fast
+  - Asynchronous everything
+  - Almost never blocks
