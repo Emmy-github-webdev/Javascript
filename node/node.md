@@ -105,3 +105,7 @@
   - Generally fast
   - Asynchronous everything
   - Almost never blocks
+4. What are the two types of API functions in Node.js?
+  Answer:
+  - Asynchronous, non-blocking functions
+  - Synchronous, blocking functions
