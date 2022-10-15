@@ -118,4 +118,14 @@
   - Colect data
   - Limit the concurrency
   - Call the next step in the program
+7. Using event loop what are the tasks that should be done asynchronously?
+  Answer:
+  - I/O operation
+  - Heavy computation
+  - Anything requiring blocking
+8. What are the two arguments that **async.queue** takes?
+  Answer:
+  - Task function
+  - Concurrency value
+  
 
