@@ -112,4 +112,10 @@
 5. What is control flow function?
   Answer:
   Control flow function is generic piece of code which runs in between several Asynchrounous function
+6. Explain the steps how **control flow** controls the function call?
+  Answer:
+  - Control the order of execution
+  - Colect data
+  - Limit the concurrency
+  - Call the next step in the program
 
