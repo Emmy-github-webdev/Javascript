@@ -39,4 +39,21 @@
   });
   moreWork(); // will run before console.log
   ```
-  > 
+  > Callback
+  A **Callback** is a function passed into another function as an argument, which can be invoked or callback inside the outer function to complete some kind of action at a convenient time.
+  ```
+  // Sync callback
+  function greetings(callback) {
+    callback();
+  }
+  greetings(() => { console.log('Hi'); });
+  moreWork(); // will run after console.log
+
+  // Async callback
+  const fs = require('fs');
+  fs.readFile('/file.md', function callback(err, data) { // fs.readFile is an async method provided by Node
+    if (err) throw err;
+    console.log(data);
+  });
+  moreWork(); // will run before console.log
+  ```
