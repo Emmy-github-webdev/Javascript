@@ -115,4 +115,20 @@
 
   Null is pointing to nothing in memory. Undefined is a variable that has not been assigned any value. Lastly, undeclared is a variable that has not been properly declared using const, var, or let.
 
+4. What is a **closure**, and how/why would you use one
+
+  **Closures** are inner functions inside of an outer function. They have their own local scope and has access to outer function’s scope, parameters (but NOT arguments object), and they also have access to global variables.
+  ```
+  function makeFunc() {
+    const name = 'Mozilla';
+    function displayName() {
+      console.log(name);
+    }
+    return displayName;
+  }
+
+  const myFunc = makeFunc();
+  myFunc();
+  ```
+
   
