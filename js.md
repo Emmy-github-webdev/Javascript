@@ -90,3 +90,29 @@
   anotherObject.classMethod(); // now, we inherited classObject's method, classMethod
 
   ```
+
+3. What's the difference between a variable that is: **null**, **undefined** or **undeclared?**
+  **null** means that the value is absent.
+  **undefined** means that the variables has not been assigned a value or declared at all.
+  **undeclared** means that variable have been declared without using const, var or let
+
+  ```
+  # null
+  x = null
+
+  #undefined
+  let x
+  console.log(x + "test")
+  // x is undefined
+
+  #undeclared
+  testvar = "This is undeclared"
+
+  //as oppsed to
+
+  let testvar = "This is declared"
+  ```
+
+  Null is pointing to nothing in memory. Undefined is a variable that has not been assigned any value. Lastly, undeclared is a variable that has not been properly declared using const, var, or let.
+
+  
