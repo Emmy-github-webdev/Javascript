@@ -1,3 +1,4 @@
+[Refer](https://www.youtube.com/watch?v=rmQQqmAIiLE)
 1. **[What is node.js?](https://www.freecodecamp.org/news/node-js-what-when-where-why-how-ab8424886e2/)**
   _Answer_
   **node.js** is a server side scripting which is used to build scalable programs. The advantages of **Node.js** over other scripting language includes
@@ -127,5 +128,102 @@
   Answer:
   - Task function
   - Concurrency value
-  
 
+9. What is **REPL** in node.js?
+  <br>
+
+  **REPL** stands for **Read Eva Print Loop** which represent computer environment like a Window console or Unix/Linux shell terminal where command is entered, and system responds with an output.
+
+10. What is the difference between **fork()** and **spaw()** methods in Node.js?
+
+  <br>
+  **Fork()** is a particular case of spaw() method that generates a new instances of a V8 engine.
+  **spaw()** launches a new process with the new set of commands and it does not geneterates new instance of a V8 engine.
+
+11. What is the use of **Buffer** class in Node.js?
+
+  <br>
+
+  **Buffer** class stores raw data similar to an array of intergers. Buffer class is used because pure JavaScript is not compatable with binary data.
+
+12. What is **piping** in Node.js?
+  <br>
+
+  **Piping** is the mechanism of connecting output of one data stream to another data stream
+
+13. What are some of the flags used in **read/Write** operation in files?
+
+  <br>
+
+  - **r** - Open file for reading
+  - **r+** - Open file for reading and writing
+  - **w** - Open file for writing
+  - **w+** - Open file for reading and writing
+  - **a** - Open file for appending
+  - **a+** - Open file for reading and appending
+
+14. How will you open a file using Node.js?
+
+  <br>
+
+  The syntax for opening a file in Node.js is
+  ```
+  fs.open(path, flag[, module], callback)
+  ```
+
+15. What is **Reactor Pattern** in Node.js?
+
+  <br>
+
+  **Reactor Pattern** is a concept of non-blocking I/O operations. It provides handler for each I/O and as soon as the I/O request is generated, it is then submitted to a demultiplexer.
+
+16. What is **test pyramid** in Node.js?
+
+  <br>
+
+  **Test Pyramid** is the figure that expalins the protion of unit tests, integration test, and end-to-end tests that are required for the proper development of a project.
+  - Unit test- This tests individual units of the code in isolation
+  - Integration test - This test the integration among dissimilar units
+  - End-to-End tests: This test the whole system from The UI to data store and back.
+
+17. Describe the exit codes of Node.js?
+
+  <br>
+
+  **Exit code** is a set of specific codes which are used for finishing a specific process. Examples of exit codes incluse
+  - Uncaught fatal exception
+  - Unused
+  - Fatal error
+  - Internal exception handler run-time error
+  - Internal Javascript evaluation failure
+18. What is an **Event Emitter** in Node.js?
+
+  <br>
+
+  **Event Emiiter** is the class that holds the object that can emit evenys
+
+  ```
+  const EventEmitter = require('events);
+  class MyEmitter extends EventEmitter {}
+  const myEmitter = new MyEmitter();
+  myEmitter.on('event', () => {
+    console.log('an event occurred!');
+  });
+
+  myEmitter.emit('event');
+  ```
+
+19. What is **package.json** file?
+    <br>
+
+    The **package.json** file is the heart of a node.js system. It is the file that holds the metadata about a particular project.
+
+20. What are **streams** in Node.js?
+
+  <br>
+
+  **Streams** are objects that allow you to read or write data continuosly. There are four types of streams
+  - Readable
+  - Writable
+  - Duplex
+  - Transform

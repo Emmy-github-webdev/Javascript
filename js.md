@@ -131,4 +131,6 @@
   myFunc();
   ```
 
+  Closures is a neat way to deal with scope issues. Reasons we use Closures is because Javascript is a function-level scope rather than as with other languages, block-level scope and Javascript is an asynchronous/event driven language.
+
   
